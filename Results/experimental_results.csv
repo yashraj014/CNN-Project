@@ -1,0 +1,8 @@
+Experiment_ID,Description,Category,Final_Train_Acc,Final_Val_Acc,Final_Train_Loss,Final_Val_Loss,Test_Accuracy,Avg_Class_Acc_Mean_Recall,Macro_Precision,Macro_Recall,Macro_F1_Score,Weighted_F1_Score
+Exp1_Baseline,"Baseline CNN (3 Blocks, Dropout=0.3, lr=1e-3)",Baseline,1.0,1.0,0.032521789627415795,0.01734793862948815,1.0,1.0,1.0,1.0,1.0,1.0
+Exp2_Shallow,"Shallow CNN (2 Blocks, Dropout=0.3, lr=1e-3)",Architecture Depth,1.0,1.0,0.20191653839179446,0.16794362862904866,1.0,1.0,1.0,1.0,1.0,1.0
+Exp3_Deep,"Deep CNN (4 Blocks, Dropout=0.3, lr=1e-3)",Architecture Depth,1.0,1.0,0.0025663211276488644,0.0007828957352709646,1.0,1.0,1.0,1.0,1.0,1.0
+Exp4_NoDropout,"No Dropout CNN (3 Blocks, Dropout=0.0, lr=1e-3)",Regularization,1.0,1.0,0.029808691782610756,0.015948551458617052,1.0,1.0,1.0,1.0,1.0,1.0
+Exp5_HighDropout,"High Dropout CNN (3 Blocks, Dropout=0.6, lr=1e-3)",Regularization,0.9928571428571429,1.0,0.06579714587756566,0.04247718850771586,1.0,1.0,1.0,1.0,1.0,1.0
+Exp6_LowLR,"Low LR CNN (3 Blocks, Dropout=0.3, lr=1e-4)",Learning Rate,0.9928571428571429,1.0,0.42852701119014197,0.374173112710317,1.0,1.0,1.0,1.0,1.0,1.0
+Exp7_HighLR,"High LR CNN (3 Blocks, Dropout=0.3, lr=1e-2)",Learning Rate,0.9785714285714285,0.26666666666666666,0.0825629644628082,9.611547994613648,1.0,1.0,1.0,1.0,1.0,1.0
